@@ -20,7 +20,7 @@ import sympy
 
 # Projects
 
-## 1. 气体热导率的测量
+## 1. [气体热导率的测量](https://github.com/ggbondd/fucking-physical/tree/main/%E6%B0%94%E4%BD%93%E7%83%AD%E5%AF%BC%E7%8E%87%E7%9A%84%E6%B5%8B%E9%87%8F)
 
 运行前
 
