@@ -1,6 +1,6 @@
 # Intro
 
-经常百度的我们会发现，物理实验报告的处理是大同小异的，那么是否可以使用简单的程序来解决重复的复杂的计算？这正是本repository的初衷
+经常百度的我们会发现，物理实验报告的处理是大同小异的，那么是否可以使用简单的程序来解决重复的复杂计算？这正是本repository的初衷
 
 # Environment
 
@@ -20,7 +20,7 @@ import sympy
 
 # Projects
 
-## 1. [气体热导率的测量](https://github.com/ggbondd/fucking-physical/tree/main/%E6%B0%94%E4%BD%93%E7%83%AD%E5%AF%BC%E7%8E%87%E7%9A%84%E6%B5%8B%E9%87%8F)
+## [1. 气体热导率的测量](https://github.com/ggbondd/fucking-physical/tree/main/%E6%B0%94%E4%BD%93%E7%83%AD%E5%AF%BC%E7%8E%87%E7%9A%84%E6%B5%8B%E9%87%8F)
 
 运行前
 
@@ -34,4 +34,6 @@ import sympy
 
 ------
 
-。。。。。。
+
+
+待更新…………
