@@ -18,6 +18,16 @@ import numpy as np
 import sympy
 ```
 
+> pandas：分析数据
+>
+> numpy：求对数
+>
+> matplotlib：展示数据
+>
+> scipy：做线性回归方程
+>
+> sympy：求定积分
+
 # Projects
 
 ## [1. 气体热导率的测量](https://github.com/ggbondd/fucking-physical/tree/main/%E6%B0%94%E4%BD%93%E7%83%AD%E5%AF%BC%E7%8E%87%E7%9A%84%E6%B5%8B%E9%87%8F)
