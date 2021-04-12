@@ -46,6 +46,8 @@ def processTableData():
     physical.to_excel(FILE_OUTPUT, index=False)
 
 # 其他数据处理
+
+
 def processOtherData():
     fp = pd.read_excel(FILE_OUTPUT)
     # R1
@@ -88,6 +90,8 @@ def processOtherData():
     print("Ep3：", round(Ep3, 4))
 
 # 图像处理
+
+
 def processGraphics(start, stop):
     # 线性拟合，可以返回斜率，截距，r 值，p 值，标准误差,x,y
     slope, intercept, r_value, p_value, std_err, x, y = getLinregress(
@@ -116,6 +120,8 @@ def processGraphics(start, stop):
     plt.close()
 
 # 获取线性回归方程
+
+
 def getLinregress(start, stop):
     fp = pd.read_excel(FILE_OUTPUT)
     # 获取数据
@@ -135,14 +141,23 @@ def getLinregress(start, stop):
     return slope, intercept, r_value, p_value, std_err, x, y
 
 # 获取导热系数
+
+
 def gety(start, stop, T1, T2):
     # λ1
     slope, intercept, r_value, p_value, std_err, x, y = getLinregress(
         start, stop)
     y1 = (1 / (intercept * 2 * 3.1416 * L * 1e-2)) * \
          (np.log(15 / 0.02) / (T1 - T2))
-    print('λ1：', round(y1, 5))
+    if stop is None:
+        name = 'λ1：'
+    elif stop == 10:
+        name = 'λ2：'
+    else:
+        name = 'λ3：'
+    print(name, round(y1, 5))
     return y1
+
 
 processTableData()
 processOtherData()
