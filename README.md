@@ -18,7 +18,7 @@ import numpy as np
 import sympy
 ```
 
-> pandas：分析数据
+> pandas：数据分析
 >
 > numpy：数学运算
 >
