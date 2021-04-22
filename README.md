@@ -20,13 +20,13 @@ import sympy
 
 > pandas：分析数据
 >
-> numpy：求对数
+> numpy：数学运算
 >
-> matplotlib：展示数据
+> matplotlib：画图板
 >
-> scipy：做线性回归方程
+> scipy：线性回归计算
 >
-> sympy：求定积分
+> sympy：积分运算
 
 # Projects
 
@@ -44,4 +44,5 @@ import sympy
 
 ------
 
-待更新…………
+## [2. **光电效应及普朗克常量的测定**](https://github.com/ggbondd/physical/tree/main/%E5%85%89%E7%94%B5%E6%95%88%E5%BA%94%E5%8F%8A%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E9%87%8F%E7%9A%84%E6%B5%8B%E5%AE%9A)
+
